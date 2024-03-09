@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/macan_tour"
+        android:layout_width="439dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:padding="16dp"
+        android:text="@string/tour"
+        android:textColor="@color/white"
+        android:textSize="@dimen/big" />
+
+    <TextView
+        android:id="@+id/koncert_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="@string/koncert"
+        android:textSize="@dimen/medium" />
+
+    <EditText
+        android:id="@+id/edit_fio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fio"
+        android:padding="15dp" />
+
+    <TextView
+        android:id="@+id/moscow_arena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="@string/moscow"
+        android:textSize="@dimen/medium" />
+
+    <Button
+        android:id="@+id/buy_ticket1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/small"
+        android:text="@string/bron" />
+
+    <TextView
+        android:id="@+id/yaroslavl_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="@string/yaroclavl"
+        android:textSize="@dimen/medium" />
+
+    <Button
+        android:id="@+id/buy_ticket2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/small"
+        android:text="@string/bron" />
+
+    <TextView
+        android:id="@+id/kalin_arena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="КАЛИНИНГРАД - ДС ''Янтарный''"
+        android:textSize="@dimen/medium" />
+
+    <Button
+        android:id="@+id/buy_ticket3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/small"
+        android:text="@string/bron" />
+
+    <ImageView
+        android:id="@+id/macan_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/macan" />
+
+</LinearLayout>

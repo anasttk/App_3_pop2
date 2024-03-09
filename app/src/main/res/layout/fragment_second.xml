@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/koncert" />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="38dp"
+        android:paddingLeft="3mm"
+        android:text="@string/place"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tancpol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/place"
+        android:paddingLeft="11mm"
+        android:text="1) Танцпол"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fan_zona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/tancpol"
+        android:paddingLeft="11mm"
+        android:text="2) Фан-зона"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tribun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/fan_zona"
+        android:paddingLeft="11mm"
+        android:text="3) Сидячие места на трибуне"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/mesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tribun"
+        android:layout_marginTop="29dp"
+        android:hint="Введите номер варианта"
+        android:padding="5mm" />
+
+    <Button
+        android:id="@+id/dalee_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mesto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:padding="8dp"
+        android:text="Далее" />
+
+    <Button
+        android:id="@+id/nazad_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dalee_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:padding="8dp"
+        android:text="Назад" />
+
+</RelativeLayout>

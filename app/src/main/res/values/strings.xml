@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Привет</string>
+    <string name="tour">MACAN-TOUR 2024</string>
+    <string name="koncert">График концертов:</string>
+    <string name="fio">Введите ваше ФИО</string>
+    <string name="moscow">МОСКВА - Лукойл-арена</string>
+    <string name="bron">Забронировать билет</string>
+    <string name="yaroclavl">ЯРОСЛАВЛЬ - Арена-2000</string>
+    <string name="place">Выберите место:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
